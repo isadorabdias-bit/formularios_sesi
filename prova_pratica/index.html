@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario Superaçaiajin</h1>
+    <br>
+    <form id="dados">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" name="name">
+            <br>
+            <br>
+            <label for="idade">Idade: </label>
+            <br>
+            <input type="number" name="idade">
+            <br>
+            <br>
+            <label for="tel">Telefone:</label>
+            <br>
+            <input type="number" name="telefone">
+            <br>
+            <br>
+            <label for="ende">Endereço:</label>
+            <br>
+            <input type="text" name="ende">
+            <br>
+            <br>
+            Planeta de Origem :
+            <br>
+            <select name="lista" id="lista">
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+                <option>Outros</option>
+            </select>
+            <br>
+            <br>
+        </fieldset>
+    </form>
+
+    <br>
+    <form id="dados extras">
+        <fieldset>
+            <legend>Dados Extras:</legend>
+            Raça da Universo 7 preferida:
+            <select name="lista" id="lista">
+                <option>Terráqueo</option>
+                <option>Sayajin</option>
+                <option>NameKuseijim</option>
+                <option>Android</option>
+                <option>Outros</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="traba">Trabalho:</label>
+            <input type="radio" name="traba" id="auto" value="auto">
+            <label for="auto">Autônomo</label>
+            <input type="radio" name="traba" id="clt" value="clt">
+            <label for="clt">Empregado CLT</label>
+            <input type="radio" name="traba" id="empre" value="empre">
+            <label for="empre">Empresário</label>
+            <input type="radio" name="traba" id="goku" value="goku">
+            <label for="goku">Tipo Goku</label>
+            <br>
+            <br>
+        </fieldset>
+    </form>
+
+    <br>
+    <form id="seu acai">
+        <fieldset>
+            <legend>Seu açai é perfeito do seu jeito?</legend>
+            <input type="checkbox" name="puro" id="puro">
+            <label for="puro">Puro</label>
+            <input type="checkbox" name="bana" id="bana">
+            <label for="bana">Com Banana</label>
+            <input type="checkbox" name="bana" id="bana">
+            <label for="bana">Com Morango</label>
+            <input type="checkbox" name="bana" id="bana">
+            <label for="bana">Com Granola</label>
+            <input type="checkbox" name="bana" id="bana">
+            <label for="bana">Tem gosto de terra</label>
+        </fieldset>
+    </form>
+
+    <br>
+    <form id="tamanho">
+        <fieldset>
+            <legend>Qual o tamanho preferido?</legend>
+            <input type="radio" name="tama" id="500" value="500">
+            <label for="500">500ml</label>
+            <input type="radio" name="tama" id="300" value="300">
+            <label for="300">300ml</label>
+            <input type="radio" name="tama" id="100" value="100">
+            <label for="100">100ml</label>
+            <input type="radio" name="tama" id="cas" value="cas">
+            <label for="cas">Casquinha</label>
+            <input type="radio" name="tama" id="terra" value="terra">
+            <label for="terra">Qual parte do tem gosto de Terra você não entendeu?</label>
+        </fieldset>
+    </form>
+
+    <form id="obs">
+        <fieldset>
+            Observações:
+            <br>
+            <textarea rows="4" cols="50">
+              Escreva suas observações... E gosto de açai porque... 
+            </textarea>
+        </fieldset>
+    </form>
+
+    <br>
+    <button type="submit">Enviar</button>
+    <button type="submit">Limpar</button>
+
+</html>
