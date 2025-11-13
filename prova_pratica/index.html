@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
@@ -15,26 +16,25 @@
             <legend>Dados Pessoais</legend>
             <label for="nome">Nome:</label>
             <br>
-            <input type="text" name="name">
+            <input type="text" name="name" class="linhas">
             <br>
             <br>
             <label for="idade">Idade: </label>
             <br>
-            <input type="number" name="idade">
+            <input type="number" name="idade" class="linhas">
             <br>
             <br>
             <label for="tel">Telefone:</label>
             <br>
-            <input type="number" name="telefone">
+            <input type="number" name="telefone" class="linhas">
             <br>
             <br>
             <label for="ende">Endereço:</label>
             <br>
-            <input type="text" name="ende">
+            <input type="text" name="ende" class="linhas">
             <br>
             <br>
-            Planeta de Origem :
-            <br>
+            <h5>Planeta de Origem :</h5>
             <select name="lista" id="lista">
                 <option>Planeta Terra</option>
                 <option>Planeta Namek</option>
@@ -50,7 +50,7 @@
     <form id="dados extras">
         <fieldset>
             <legend>Dados Extras:</legend>
-            Raça da Universo 7 preferida:
+            <h5>Raça da Universo 7 preferida:</h5>
             <select name="lista" id="lista">
                 <option>Terráqueo</option>
                 <option>Sayajin</option>
@@ -109,12 +109,12 @@
         </fieldset>
     </form>
 
+    <br>
+
     <form id="obs">
         <fieldset>
-            Observações:
-            <br>
-            <textarea rows="4" cols="50">
-              Escreva suas observações... E gosto de açai porque... 
+            <h5>Observações:</h5>
+            <textarea rows="4" cols="50"> 
             </textarea>
         </fieldset>
     </form>
